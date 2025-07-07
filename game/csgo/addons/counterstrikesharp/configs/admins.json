@@ -1,0 +1,46 @@
+{
+  "portella": {
+    "identity": "76561198128653683", // Este é o seu SteamID64, parece correto.
+    "immunity": 100,
+    "flags": [
+      "@css/root" // ALTERADO: Esta é a flag que dá acesso total
+      // "@css/custom-flag-1", // Você pode remover essas linhas se não as usar
+      // "@css/custom-flag-2"  // ou mantê-las se outros plugins as utilizam.
+    ],
+    "groups": [
+      "#css/admin" // Isso pode ser um grupo que concede permissões também, o que é bom.
+    ],
+    "command_overrides": {
+      "css_plugins": true,
+      "css": true // Mude para 'true' para permitir o comando 'css' geral.
+    }
+  },
+  "GabrielLanches": { // Adicione uma nova entrada para cada amigo
+    "identity": "76561198335007111", // SUBSTITUA pelo SteamID64 REAL do seu amigo
+    "immunity": 100, // Um valor menor que o seu (100) para hierarquia, se quiser.
+    "flags": [
+      "@css/root" // Dê a mesma flag de acesso total.
+    ],
+    "groups": [
+      "#css/admin"
+    ],
+    "command_overrides": {
+      "css_plugins": true,
+      "css": true
+    }
+  },
+  "Dudi": { // Adicione uma nova entrada para cada amigo
+    "identity": "76561198116243553", // SUBSTITUA pelo SteamID64 REAL do seu amigo
+    "immunity": 100, // Um valor menor que o seu (100) para hierarquia, se quiser.
+    "flags": [
+      "@css/root" // Dê a mesma flag de acesso total.
+    ],
+    "groups": [
+      "#css/admin"
+    ],
+    "command_overrides": {
+      "css_plugins": true,
+      "css": true
+    }
+  }
+}
