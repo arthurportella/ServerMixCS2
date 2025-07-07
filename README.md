@@ -7,6 +7,19 @@ If you are looking for the CS:GO version you can still access that [here](https:
 
 ## About
 
+This server setup uses modifications to enhance gameplay and provide additional features for Counter-Strike 2. It automates installation, updates, and configuration on supported Linux distributions.
+
+---
+
+## License
+
+This project is licensed under the **GNU Lesser General Public License v3 (LGPLv3)**.  
+You can copy, modify, and redistribute this software under the terms of the LGPLv3.
+
+See the `LICENSE` file for full license details.
+
+---
+
 A single modded Counter-Strike 2 (CS2) Modded Dedicated Server that you can [change the active mod](#changing-game-modes) on the server from chat or server console. [Maps are preconfigured per game mode](#what-maps-are-preconfigured-with-each-mode) and change when the game mode changes.
 
 Each game mode has a hand full of maps preset so you are ready to go and it's [easy to add more](#setting-maps-for-different-game-modes).
